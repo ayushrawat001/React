@@ -18,7 +18,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [tailwindcss(), react()],
   server: {
-    allowedHosts: "all", // Allow all hosts
+    allowedHosts: 58mdwf-5173.csb.app, // Allow all hosts
     host: true, // Ensures proper host binding
     port: 5173, // You can set a custom port if needed
   }
